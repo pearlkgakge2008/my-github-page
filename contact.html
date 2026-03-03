@@ -47,7 +47,7 @@
 
         <div class="container"> 
 
-            <a class="navbar-brand" href="index.html">My Website</a> 
+            <a class="navbar-brand" href="index.html">GFM Gallery</a> 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
 
@@ -69,11 +69,21 @@
 
                         <a class="nav-link" href="arrivals.html">Arrivals</a>
 
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="Catalogue.html">Catalogue</a>
+
                      </li>
 
                     <li class="nav-item"> 
 
                         <a class="nav-link" href="about.html">About</a> 
+
+                    </li> 
+
+                     <li class="nav-item"> 
+
+                        <a class="nav-link" href="feedback.html">Feedback</a> 
 
                     </li> 
 
@@ -111,36 +121,32 @@
           </a>
         </div>
 
-        <div class="row g-3">
-          <div class="col-md-6">
-            <label class="form-label">Name</label>
-            <input class="form-control" type="text" placeholder="Your name">
-          </div>
+        <form>
 
-          <div class="col-md-6">
-            <label class="form-label">Email</label>
-            <input class="form-control" type="email" placeholder="you@email.com">
-          </div>
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname"><br><br>
 
-          <div class="col-12">
-            <label class="form-label">Message</label>
-            <textarea class="form-control" rows="5" placeholder="What would you like to ask or order?"></textarea>
-          </div>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
 
-          <div class="col-12">
-            <button class="btn btn-dark w-100" type="button">Send Message</button>
-            <small class="text-muted d-block mt-2">
-            </small>
-          </div>
-        </div>
+    <label>Bag Type Interested In:</label><br>
+    <input type="checkbox" name="bagtype" value="shoulder"> Shoulder Bag
+    <input type="checkbox" name="bagtype" value="tote"> Tote Bag
+    <input type="checkbox" name="bagtype" value="mini"> Mini Bag
+    <br><br>
 
-      </div>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
 
-    </div>
+    <input type="submit" value="Submit">
+
+        </form>
   </div>
 </main>
 
-                
+            <footer> 
+
+        <p>&copy; 2026 GFM Gallery</p> 
+    </footer> 
 
  
-

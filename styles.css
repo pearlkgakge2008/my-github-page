@@ -1,130 +1,58 @@
 body {
-
-font-family: Arial, sans-serif;
-
-color: #333;
-
-background-color: #ffce88
-
-margin: 0;
-
-padding: 0;
-
-line-height: 1.6;
-
+    font-family: Arial, sans-serif;
+    background-color: #f8f6f4;   /* soft neutral instead of pink */
+    color: #180605;
 }
 
-header {
-
-background-color: #ffce88
-
-color: white;
-
-padding: 20px;
-
-text-align: center;
-
+/* NAVBAR */
+.navbar {
+    background-color: #180605 !important;
 }
 
-
-header h1 {
-
-margin: 0;
-
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #ffffff !important;
 }
 
-
-nav a {
-
-color: white;
-
-text-decoration: none;
-
-margin: 0 10px;
-
+.navbar .nav-link:hover {
+    color: #B18582 !important;
 }
 
-nav a:hover {
-
-text-decoration: underline;
-
+/* HEADINGS */
+h1 {
+    color: #3F070B;
 }
 
-main {
-
-padding: 20px;
-
-max-width: 800px;
-
-margin: 0 auto;
-
+/* CARDS */
+.card {
+    background-color: #ffffff;   /* clean white cards */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-
-main img {
-
-max-width: 100%;
-
-height: auto;
-
-display: block;
-
-margin: 20px 0;
-
+.card-title {
+    color: #180605;
 }
 
+.card p {
+    color: #710A14;
+}
+
+/* BUTTON */
+.btn-dark {
+    background-color: #710A14;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-dark:hover {
+    background-color: #3F070B;
+}
+
+/* FOOTER */
 footer {
-
-background-color: #333;
-
-color: white;
-
-text-align: center;
-
-padding: 10px;
-
-position: fixed;
-
-bottom: 0;
-
-width: 100%;
-
-}
-
-p {
-
-font-size: 1.1em;
-
-}
-
-
-a {
-
-color: #554d4d;
-
-text-decoration: none;
-
-}
-
-
-a:hover {
-
-text-decoration: underline;
-
-}
-
-img {
-
-border: 5px solid #552E10
-
-border-radius : 10px;
-
-}
-
-main a[href^="mailto:"] {
-
-color: #552E10
-
-font-weight: bold;
-
+    background-color: #180605;
+    color: #ffffff;
+    padding: 15px;
 }

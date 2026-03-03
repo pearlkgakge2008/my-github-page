@@ -4,7 +4,7 @@ font-family: Arial, sans-serif;
 
 color: #333;
 
-background-color: #f9f9f9;
+background-color: #ffce88
 
 margin: 0;
 
@@ -16,7 +16,7 @@ line-height: 1.6;
 
 header {
 
-background-color: #4CAF50;
+background-color: #ffce88
 
 color: white;
 
@@ -100,7 +100,7 @@ font-size: 1.1em;
 
 a {
 
-color: #4CAF50;
+color: #554d4d;
 
 text-decoration: none;
 
@@ -115,15 +115,15 @@ text-decoration: underline;
 
 img {
 
-border: 5px solid #4CAF50;
+border: 5px solid #552E10
 
-border-radius: 10px;
+border-radius : 10px;
 
 }
 
 main a[href^="mailto:"] {
 
-color: #ff5722;
+color: #552E10
 
 font-weight: bold;
 

@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f6f4;   /* soft neutral instead of pink */
+    background-color: #f8f6f4;   
     color: #180605;
 }
 
-/* NAVBAR */
+
 .navbar {
     background-color: #180605 !important;
 }
@@ -18,14 +18,14 @@ body {
     color: #B18582 !important;
 }
 
-/* HEADINGS */
+
 h1 {
     color: #3F070B;
 }
 
-/* CARDS */
+
 .card {
-    background-color: #ffffff;   /* clean white cards */
+    background-color: #ffffff;   
     border: none;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
@@ -39,7 +39,7 @@ h1 {
     color: #710A14;
 }
 
-/* BUTTON */
+
 .btn-dark {
     background-color: #710A14;
     border: none;
@@ -50,9 +50,8 @@ h1 {
     background-color: #3F070B;
 }
 
-/* FOOTER */
+
 footer {
     background-color: #180605;
     color: #ffffff;
     padding: 15px;
-}
